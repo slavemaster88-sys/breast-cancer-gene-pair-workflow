@@ -1,0 +1,15 @@
+component,v2,v3
+Network,Self-pair contamination audited but downstream frozen,"Self-pairs removed, canonical full-key joins"
+Topology,Old topology frozen,Recomputed 1000 weight permutations; degenerate null excluded
+Modules,Old ten-gene union frozen,19/10/1 subtype genes; union25
+Input transform,Train/application mismatch and cohort scaling,"Single-sample ranks, training-fold transforms, identical interface"
+Drug labels,Mixed original reference label rules,Frozen breast dataset/drug tertiles; conflict exclusions
+Drug evaluation,Frozen outputs not revalidated,Nested grouped 5x5; inner3; all eight retrained
+Cross-assay,Independence not demonstrated,Held-out ModelID across assays; unseen separate
+Spatial,Frozen scores and corrected region labels,All15 legacy gates; frozen regions; new scores
+Clinical reference,Scaled-X-derived reference limitation,Raw-linear patient-balanced rank reference; NNLS relative proxies
+pCR baseline/transfer,Multiple recipes / recalibration limitations,MP verified/included; nested CV; frozen no-recalibration within-trial transfer
+Survival,Old adjusted results; incomplete diagnostics,Primary sample verification; complete cases; PH adaptations; BH overall null
+Temporal / selected pair,Historical outputs retained with warnings,Temporal coverage rejected; CD36-PCYOX1L historical only
+Figures,Some unchanged legacy panels,Fig1 unchanged; Fig2-6 regenerated
+Author status,Author confirmation pending,"Repository, licensing and Figure 1 rights confirmed; final all-author submission approval remains pending"

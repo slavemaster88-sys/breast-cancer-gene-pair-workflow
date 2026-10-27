@@ -1,0 +1,3 @@
+endpoint,n,excluded,n_lower,n_higher,n_zero,median_difference,mean_difference,p,exact,q_BH,unit
+"ESV",15,0,11,4,0,-0.0365741510908654,-0.0462482159376218,0.04791259765625,TRUE,0.04791259765625,"section; donor independence unconfirmed"
+"sDDS",15,0,13,2,0,-0.0710012666289769,-0.0720851737258127,0.00201416015625,TRUE,0.0040283203125,"section; donor independence unconfirmed"

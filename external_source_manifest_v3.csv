@@ -1,0 +1,10 @@
+citation,title,url
+1,GEO GSE194040: I-SPY2 expression and outcomes,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE194040
+2,GEO GSE173839: durvalumab/olaparib I-SPY2,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE173839
+3,Wu et al. A single-cell and spatially resolved atlas of human breast cancers (2021),https://www.nature.com/articles/s41588-021-00911-1
+4,Jin et al. Inference and analysis of cell-cell communication using CellChat (2021),https://www.nature.com/articles/s41467-021-21246-9
+5,GEO GSE213688: spatial source,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE213688
+6,XGBoost parameter documentation,https://xgboost.readthedocs.io/en/stable/parameter.html
+7,glmnet introduction,https://glmnet.stanford.edu/articles/glmnet.html
+8,GEO GSE176078: breast cancer single-cell and spatial atlas source,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE176078
+9,Pusztai et al. Durvalumab with olaparib and paclitaxel in I-SPY2 (2021),https://doi.org/10.1016/j.ccell.2021.05.009

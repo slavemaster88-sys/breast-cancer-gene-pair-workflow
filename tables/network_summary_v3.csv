@@ -1,0 +1,8 @@
+group,candidate_typed,tested_typed,retained_typed,indirect_functional_retained,BH_group_retained,BH_global_retained,physical_edges,nodes
+"Endothelial",29518,28893,5,0,0,0,5,10
+"Fibroblasts",22166,21707,18,0,0,0,18,23
+"Malignant_ER+",30053,29406,26,1,0,0,25,38
+"Malignant_HER2+",34027,33370,94,14,0,0,90,107
+"Malignant_TNBC",38142,37384,67,9,0,0,66,92
+"Myeloid",23996,23467,21,1,0,0,21,33
+"T_cells",12167,11939,10,0,0,0,10,18

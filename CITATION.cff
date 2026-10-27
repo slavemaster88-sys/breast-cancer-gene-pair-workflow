@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software archive, cite the accompanying manuscript and this versioned Zenodo release."
+type: software
+title: "Reconstructed breast-cancer gene-pair workflow"
+version: "3.0.0"
+doi: "10.5281/zenodo.23684869"
+date-released: 2026-10-27
+url: "https://doi.org/10.5281/zenodo.23684869"
+repository-code: "https://github.com/slavemaster88-sys/breast-cancer-gene-pair-workflow"
+license:
+  - MIT
+  - CC-BY-4.0
+authors:
+  - family-names: Fang
+    given-names: Kun
+  - family-names: Jiang
+    given-names: Suxiao
+  - family-names: Luo
+    given-names: Meng
+  - family-names: Ma
+    given-names: Yinling
+keywords:
+  - breast cancer
+  - gene-pair scores
+  - tumour microenvironment
+  - spatial transcriptomics
+  - reproducible analysis
+abstract: >-
+  Author-developed code, original figures, eligible aggregate outputs,
+  portable manifests, and audit records for a reconstruction and exploratory
+  evaluation of tumour-microenvironment-associated gene-pair scores in breast
+  cancer. Record-level derivatives and frozen model objects are not redistributed.
+

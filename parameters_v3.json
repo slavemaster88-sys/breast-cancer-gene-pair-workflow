@@ -1,0 +1,78 @@
+{
+  "version": "SpaGI-BC-v3-rank-20261026",
+  "seed": 20261026,
+  "threads": 2,
+  "network": {
+    "rho_gt": 0.3,
+    "empirical_p_lt": 0.05,
+    "association_permutations": 200,
+    "topS_permutations": 1000,
+    "patient_level_inference": false
+  },
+  "rank": {
+    "U": 13357,
+    "pairs": 152,
+    "min_coverage": 0.95,
+    "rule": "(average_tied_rank-.5)/measured_U_count",
+    "missing": "training-fold median rank",
+    "feature": "W*(zA+zB)/2"
+  },
+  "drug_validation": {
+    "outer_folds": 5,
+    "repeats": 5,
+    "inner_folds": 3,
+    "group": "ModelID",
+    "conditional_bootstrap": 2000
+  },
+  "xgboost": {
+    "version": "3.2.1.1",
+    "objective": "binary:logistic",
+    "eta": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "min_child_weight": 3,
+    "lambda": 1,
+    "max_depth": [1, 2, 3],
+    "nrounds": [100, 200],
+    "selection": "inner mean logloss; shallow/fewer tie"
+  },
+  "elastic_net": {
+    "alpha": 0.5,
+    "standardize": true,
+    "lambda_fractions": 50,
+    "min_fraction": 0.0001,
+    "selection": "one SE"
+  },
+  "pCR": {
+    "M0": ["HR", "HER2", "MP"],
+    "M1_add": ["sDDS_Paclitaxel", "sDDS_Olaparib"],
+    "M2_add": ["ESV", "Tcell_SL"],
+    "MP": "0=MP1;1=MP2",
+    "alpha": 0,
+    "outer": 5,
+    "repeats": 5,
+    "inner": 3,
+    "recalibration": false
+  },
+  "clinical_reference": {
+    "Uref": 813,
+    "method": "patient-label equal reference rank NNLS; normalized relative proxies"
+  },
+  "spatial": {
+    "sections": 15,
+    "spots": 26726,
+    "regions": "frozen malignant signature <=Q1 / >=Q3",
+    "Moran": "directed row-standardized array6NN",
+    "test": "two-sided exact signed rank; BH2",
+    "donor_independence": "unresolved"
+  },
+  "survival": {
+    "covariates": ["age", "factor stage I-IV", "subtype", "myCAF_proxy", "SPP1_TAM_proxy"],
+    "missing": "complete case",
+    "primary_unit": "cohort SD ESV",
+    "PH_rule": "categorical strata; ESV x log(months)",
+    "endpoints": ["METABRIC OS", "TCGA OS", "TCGA DSS"],
+    "multiplicity": "BH3 overall ESV LRT",
+    "minimum_events_df": 10
+  }
+}

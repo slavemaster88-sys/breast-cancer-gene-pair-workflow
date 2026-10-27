@@ -1,0 +1,8 @@
+test,pass,detail
+"zero_retained_self_pairs",TRUE,"No symbol1=symbol2"
+"241_typed_records",TRUE,"Clean group-aware keys"
+"15_spatial_reproduction_gates",TRUE,"All section per-spot gates passed"
+"MP_in_all_final_pCR_models",TRUE,"M0/M1/M2 include MP"
+"pCR_outer_ID_isolation",TRUE,"25 outer folds; no ResearchID overlap"
+"clinical_bundles_readback",TRUE,"3 frozen pCR models plus reference"
+"108_input_checkpoint_hashes",TRUE,"108 files size/SHA verified"

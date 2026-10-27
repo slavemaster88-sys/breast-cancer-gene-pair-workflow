@@ -1,0 +1,14 @@
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+data/
+models/
+checkpoints/
+work/
+*.h5ad
+*.loom
+*.rds
+*.rda
+*.zip
+

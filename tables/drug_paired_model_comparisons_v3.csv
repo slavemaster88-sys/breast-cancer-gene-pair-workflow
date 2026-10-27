@@ -1,0 +1,25 @@
+drug,comparison,n,AUROC_meanOOF_difference,conditional_CI_lo,conditional_CI_hi,max_probability_difference
+"Paclitaxel","xgboost_weighted minus xgboost_unweighted",37,0,0,0,0
+"Paclitaxel","xgboost_weighted minus elastic_net_weighted",37,-0.12280701754386,-0.295355263157895,0.0446485805860806,0.199275200955727
+"Paclitaxel","xgboost_weighted minus constant_baseline",37,-0.0336257309941521,-0.302475649350649,0.216354166666667,0.199275200955727
+"Bortezomib","xgboost_weighted minus xgboost_unweighted",36,0,0,0,0
+"Bortezomib","xgboost_weighted minus elastic_net_weighted",36,0.104938271604938,-0.0712241195820433,0.291037796697626,0.115764787505869
+"Bortezomib","xgboost_weighted minus constant_baseline",36,0.0987654320987654,-0.0925925925925926,0.290479910714286,0.130812823772431
+"Lapatinib","xgboost_weighted minus xgboost_unweighted",35,0,0,0,0
+"Lapatinib","xgboost_weighted minus elastic_net_weighted",35,-0.0163398692810457,-0.16,0.122471088435374,0.0816278421945566
+"Lapatinib","xgboost_weighted minus constant_baseline",35,0.168300653594771,-0.0952672735760971,0.415073529411765,0.183857692726727
+"Doxorubicin","xgboost_weighted minus xgboost_unweighted",30,0,0,0,0
+"Doxorubicin","xgboost_weighted minus elastic_net_weighted",30,-0.1289592760181,-0.429864253393665,0.203622004357298,0.110613997730823
+"Doxorubicin","xgboost_weighted minus constant_baseline",30,0.0429864253393665,-0.199151583710407,0.308916666666667,0.0133089440870976
+"Olaparib","xgboost_weighted minus xgboost_unweighted",29,0,0,0,0
+"Olaparib","xgboost_weighted minus elastic_net_weighted",29,-0.0142857142857142,-0.259811348781937,0.233177083333333,0.123065686882295
+"Olaparib","xgboost_weighted minus constant_baseline",29,0.0952380952380952,-0.0931372549019608,0.293269230769231,0.0151232105234399
+"Afatinib","xgboost_weighted minus xgboost_unweighted",38,0,0,0,0
+"Afatinib","xgboost_weighted minus elastic_net_weighted",38,0,-0.102493074792244,0.102799369747899,0.188123399700763
+"Afatinib","xgboost_weighted minus constant_baseline",38,0.308333333333333,0.0471054292929293,0.553628762541806,0.231484968252079
+"Palbociclib","xgboost_weighted minus xgboost_unweighted",32,0,0,0,0
+"Palbociclib","xgboost_weighted minus elastic_net_weighted",32,-0.1417004048583,-0.468191558441558,0.212156723484848,0.154328812617043
+"Palbociclib","xgboost_weighted minus constant_baseline",32,0.200404858299595,-0.00660173160173165,0.411806086070792,0.0145553145381458
+"Talazoparib","xgboost_weighted minus xgboost_unweighted",33,0,0,0,0
+"Talazoparib","xgboost_weighted minus elastic_net_weighted",33,-0.209558823529412,-0.419195261437908,-0.0206611570247934,0.105556433575151
+"Talazoparib","xgboost_weighted minus constant_baseline",33,-0.110294117647059,-0.34077485380117,0.112798944476576,0.0285815746695913
